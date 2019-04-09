@@ -1,0 +1,334 @@
+age              int64
+body_type       object
+diet            object
+drinks          object
+drugs           object
+education       object
+essay0          object
+essay1          object
+essay2          object
+essay3          object
+essay4          object
+essay5          object
+essay6          object
+essay7          object
+essay8          object
+essay9          object
+ethnicity       object
+height         float64
+income           int64
+job             object
+last_online     object
+location        object
+offspring       object
+orientation     object
+pets            object
+religion        object
+sex             object
+sign            object
+smokes          object
+speaks          object
+status          object
+dtype: object
+
+### body_type ###
+
+average           14652
+fit               12711
+athletic          11819
+thin               4711
+curvy              3924
+a little extra     2629
+skinny             1777
+full figured       1009
+overweight          444
+jacked              421
+used up             355
+rather not say      198
+Name: body_type, dtype: int64
+
+### diet ###
+
+mostly anything        16585
+anything                6183
+strictly anything       5113
+mostly vegetarian       3444
+mostly other            1007
+strictly vegetarian      875
+vegetarian               667
+strictly other           452
+mostly vegan             338
+other                    331
+strictly vegan           228
+vegan                    136
+mostly kosher             86
+mostly halal              48
+strictly halal            18
+strictly kosher           18
+halal                     11
+kosher                    11
+Name: diet, dtype: int64
+
+### drinks ###
+
+socially       41780
+rarely          5957
+often           5164
+not at all      3267
+very often       471
+desperately      322
+Name: drinks, dtype: int64
+
+### drugs ###
+
+never        37724
+sometimes     7732
+often          410
+Name: drugs, dtype: int64
+
+### smokes ###
+
+no                43896
+sometimes          3787
+when drinking      3040
+yes                2231
+trying to quit     1480
+Name: smokes, dtype: int64
+
+### education ###
+
+graduated from college/university    23959
+graduated from masters program        8961
+working on college/university         5712
+working on masters program            1683
+graduated from two-year college       1531
+graduated from high school            1428
+graduated from ph.d program           1272
+graduated from law school             1122
+working on two-year college           1074
+dropped out of college/university      995
+working on ph.d program                983
+college/university                     801
+graduated from space camp              657
+dropped out of space camp              523
+graduated from med school              446
+working on space camp                  445
+working on law school                  269
+two-year college                       222
+working on med school                  212
+dropped out of two-year college        191
+dropped out of masters program         140
+masters program                        136
+dropped out of ph.d program            127
+dropped out of high school             102
+high school                             96
+working on high school                  87
+space camp                              58
+ph.d program                            26
+law school                              19
+dropped out of law school               18
+dropped out of med school               12
+med school                              11
+Name: education, dtype: int64
+
+### job ###
+
+other                                7589
+student                              4882
+science / tech / engineering         4848
+computer / hardware / software       4709
+artistic / musical / writer          4439
+sales / marketing / biz dev          4391
+medicine / health                    3680
+education / academia                 3513
+executive / management               2373
+banking / financial / real estate    2266
+entertainment / media                2250
+law / legal services                 1381
+hospitality / travel                 1364
+construction / craftsmanship         1021
+clerical / administrative             805
+political / government                708
+rather not say                        436
+transportation                        366
+unemployed                            273
+retired                               250
+military                              204
+Name: job, dtype: int64
+
+### offspring ###
+
+doesn&rsquo;t have kids                                7560
+doesn&rsquo;t have kids, but might want them           3875
+doesn&rsquo;t have kids, but wants them                3565
+doesn&rsquo;t want kids                                2927
+has kids                                               1883
+has a kid                                              1881
+doesn&rsquo;t have kids, and doesn&rsquo;t want any    1132
+has kids, but doesn&rsquo;t want more                   442
+has a kid, but doesn&rsquo;t want more                  275
+has a kid, and might want more                          231
+wants kids                                              225
+might want kids                                         182
+has kids, and might want more                           115
+has a kid, and wants more                                71
+has kids, and wants more                                 21
+Name: offspring, dtype: int64
+
+### orientation ###
+
+straight    51606
+gay          5573
+bisexual     2767
+Name: orientation, dtype: int64
+
+### pets ###
+
+likes dogs and likes cats          14814
+likes dogs                          7224
+likes dogs and has cats             4313
+has dogs                            4134
+has dogs and likes cats             2333
+likes dogs and dislikes cats        2029
+has dogs and has cats               1474
+has cats                            1406
+likes cats                          1063
+has dogs and dislikes cats           552
+dislikes dogs and likes cats         240
+dislikes dogs and dislikes cats      196
+dislikes cats                        122
+dislikes dogs and has cats            81
+dislikes dogs                         44
+Name: pets, dtype: int64
+
+### religion ###
+
+agnosticism                                   2724
+other                                         2691
+agnosticism but not too serious about it      2636
+agnosticism and laughing about it             2496
+catholicism but not too serious about it      2318
+atheism                                       2175
+other and laughing about it                   2119
+atheism and laughing about it                 2074
+christianity                                  1957
+christianity but not too serious about it     1952
+other but not too serious about it            1554
+judaism but not too serious about it          1517
+atheism but not too serious about it          1318
+catholicism                                   1064
+christianity and somewhat serious about it     927
+atheism and somewhat serious about it          848
+other and somewhat serious about it            846
+catholicism and laughing about it              726
+judaism and laughing about it                  681
+buddhism but not too serious about it          650
+agnosticism and somewhat serious about it      642
+judaism                                        612
+christianity and very serious about it         578
+atheism and very serious about it              570
+catholicism and somewhat serious about it      548
+other and very serious about it                533
+buddhism and laughing about it                 466
+buddhism                                       403
+christianity and laughing about it             373
+buddhism and somewhat serious about it         359
+agnosticism and very serious about it          314
+judaism and somewhat serious about it          266
+hinduism but not too serious about it          227
+hinduism                                       107
+catholicism and very serious about it          102
+buddhism and very serious about it              70
+hinduism and somewhat serious about it          58
+islam                                           48
+hinduism and laughing about it                  44
+islam but not too serious about it              40
+judaism and very serious about it               22
+islam and somewhat serious about it             22
+islam and laughing about it                     16
+hinduism and very serious about it              14
+islam and very serious about it                 13
+Name: religion, dtype: int64
+
+### Adding new columns
+### Displaying exploration plots
+
+### Can we determine job_code using k-nearest neighbors with columns: [essay_len, sex_code, body_type_code]?
+
+k=5 accuracy=0.12089773449078975 recall=0.12089773449078975 precision=0.12089773449078975
+k=10 accuracy=0.12894346813466018 recall=0.12894346813466018 precision=0.12894346813466018
+k=15 accuracy=0.13286047004022866 recall=0.13286047004022866 precision=0.13286047004022866
+k=20 accuracy=0.13751852636036418 recall=0.13751852636036418 precision=0.13751852636036418
+k=25 accuracy=0.14260004234596654 recall=0.14260004234596654 precision=0.14260004234596654
+k=30 accuracy=0.1416472580986661 recall=0.1416472580986661 precision=0.1416472580986661
+k=35 accuracy=0.1436586915096337 recall=0.1436586915096337 precision=0.1436586915096337
+k=40 accuracy=0.1475756934152022 recall=0.1475756934152022 precision=0.1475756934152022
+k=45 accuracy=0.15032818124073682 recall=0.15032818124073682 precision=0.15032818124073682
+k=50 accuracy=0.1508575058225704 recall=0.1508575058225704 precision=0.1508575058225704
+k=55 accuracy=0.14694050391700192 recall=0.14694050391700192 precision=0.14694050391700192
+k=60 accuracy=0.1487402074952361 recall=0.1487402074952361 precision=0.1487402074952361
+k=65 accuracy=0.15202201990260428 recall=0.15202201990260428 precision=0.15202201990260428
+k=70 accuracy=0.152868939233538 recall=0.152868939233538 precision=0.152868939233538
+k=75 accuracy=0.15170442515350413 recall=0.15170442515350413 precision=0.15170442515350413
+k=80 accuracy=0.15604488672453948 recall=0.15604488672453948 precision=0.15604488672453948
+k=85 accuracy=0.1561507516409062 recall=0.1561507516409062 precision=0.1561507516409062
+k=90 accuracy=0.15583315689180605 recall=0.15583315689180605 precision=0.15583315689180605
+k=95 accuracy=0.15636248147363963 recall=0.15636248147363963 precision=0.15636248147363963
+Found best_k = 95 with accuracy of 0.15636248147363963
+
+### Can we determine job_code using SVM with columns: [essay_len, sex_code, body_type_code]?
+
+gamma=3 C=1 accuracy=0.1600677535464747 recall=0.1600677535464747 precision=0.1600677535464747
+
+### Can we determine job_code using k-nearest neighbors with columns: [essay_len, sex_code]?
+
+k=5 accuracy=0.11166325635779012 recall=0.11166325635779012 precision=0.11166325635779012
+k=10 accuracy=0.1157556270096463 recall=0.1157556270096463 precision=0.1157556270096463
+k=15 accuracy=0.12189418298743057 recall=0.12189418298743057 precision=0.12189418298743057
+k=20 accuracy=0.12715580239695995 recall=0.12715580239695995 precision=0.12715580239695995
+k=25 accuracy=0.12764298937932378 recall=0.12764298937932378 precision=0.12764298937932378
+k=30 accuracy=0.13241742180648933 recall=0.13241742180648933 precision=0.13241742180648933
+k=35 accuracy=0.13105329825587061 recall=0.13105329825587061 precision=0.13105329825587061
+k=40 accuracy=0.13348923316768976 recall=0.13348923316768976 precision=0.13348923316768976
+k=45 accuracy=0.13806879080190979 recall=0.13806879080190979 precision=0.13806879080190979
+k=50 accuracy=0.13680210464776382 recall=0.13680210464776382 precision=0.13680210464776382
+k=55 accuracy=0.13699697944070935 recall=0.13699697944070935 precision=0.13699697944070935
+k=60 accuracy=0.13728929163012765 recall=0.13728929163012765 precision=0.13728929163012765
+k=65 accuracy=0.1410893500925655 recall=0.1410893500925655 precision=0.1410893500925655
+k=70 accuracy=0.14040728831725616 recall=0.14040728831725616 precision=0.14040728831725616
+k=75 accuracy=0.14264834843612978 recall=0.14264834843612978 precision=0.14264834843612978
+k=80 accuracy=0.14391503459027574 recall=0.14391503459027574 precision=0.14391503459027574
+k=85 accuracy=0.14469453376205788 recall=0.14469453376205788 precision=0.14469453376205788
+k=90 accuracy=0.14586378251973106 recall=0.14586378251973106 precision=0.14586378251973106
+k=95 accuracy=0.14508428334794896 recall=0.14508428334794896 precision=0.14508428334794896
+Found best_k = 90 with accuracy of 0.14586378251973106
+
+### Can we determine job_code using SVM with columns: [essay_len, sex_code]?
+
+gamma=3 C=1 accuracy=0.152976712462243 recall=0.152976712462243 precision=0.152976712462243
+
+### Can we determine fluent_english using Multiple Linear Regression with columns: [essay_avg_word_length, age]?
+
+R^2=-0.000451169372408744
+
+### Can we determine fluent_english using K-Neighbors Regression with columns: [essay_avg_word_length, age]?
+
+k=5 R^2=-0.3796498304394704
+k=10 R^2=-0.2942743285688505
+k=15 R^2=-0.26256743956809436
+k=20 R^2=-0.24633139352362465
+k=25 R^2=-0.23392924157439743
+k=30 R^2=-0.22597653188265543
+k=35 R^2=-0.21968943564062116
+k=40 R^2=-0.2147923156814191
+k=45 R^2=-0.2103618361731483
+k=50 R^2=-0.20684478832469244
+k=55 R^2=-0.2041208148720579
+k=60 R^2=-0.20139571675750734
+k=65 R^2=-0.19919815036535482
+k=70 R^2=-0.19719439640994693
+k=75 R^2=-0.19536555280177637
+k=80 R^2=-0.1936848615952549
+k=85 R^2=-0.19194620439121346
+k=90 R^2=-0.190588521078229
+k=95 R^2=-0.18921219679809997
